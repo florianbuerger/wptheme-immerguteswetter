@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Immer Gutes Wetter
+ Theme URI:    http://immerguteswetter.de/
+ Description:  Based on Graphy
+ Author:       Florian Buerger
+ Author URI:   http://www.florianbuerger.com
+ Template:     graphy
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  graphy-child
+*/
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 980px) {
+    .site-info {
+        width: 700px;
+    }
+}
+.site-info--item {
+    margin-bottom: 1em; 
+}
+.site-info--item:last-child {
+    margin-bottom: 0;
+}
+.social-logo {
+    width: 48px;
+    height: 48px;
+}
+
+.site-copyright {
+    margin-top: 2em;
+}
