@@ -25,19 +25,19 @@
 
 				<div class="social-container site-info--item">
 					<a href="https://www.instagram.com/immerguteswetter/" target="instagram" tite="Folge und auf Instagram">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/instagram.svg" alt="Instagram icon" class="social-logo">
+                        <div class="social-logo instagram"></div>
 					</a>
 
 					<a href="https://twitter.com/immer_sonne" target="twitter" title="Folge uns auf Twitter">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.svg" alt="Twitter icon" class="social-logo">
+						<div class="social-logo twitter"></div>
 					</a>
 
 					<a href="mailto:hi@immerguteswetter.de?subject=Hi" target="email" title="Schreib uns eine E-Mail">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/email.svg" alt="Email icon" class="social-logo">
+                        <div class="social-logo email"></div>
 					</a>
 
 					<a href="<?php bloginfo('url'); ?>/feed/" target="rss" title="Den RSS Feed abonnieren um immer auf dem Laufenden zu bleiben.">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss.svg" alt="RSS icon" class="social-logo">
+						<div class="social-logo rss"></div>
 					</a>					
 				</div>
 
