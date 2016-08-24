@@ -12,6 +12,15 @@
  Text Domain:  graphy-child
 */
 
+body {
+    padding: 0 1em;
+}
+@media screen and (min-width: 980px) {
+    .body {
+        padding: 0 2em;
+    }
+}
+
 .site-footer {
     margin-top: 5em;
 }
@@ -29,7 +38,7 @@
     }
 }
 .site-info--item {
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.5em;
 }
 .site-info--item:last-child {
     margin-bottom: 0;
@@ -63,7 +72,7 @@
     background: url('images/rss.svg');
 }
 .site-copyright {
-    margin-top: 2em; 
+    margin-top: 2em;
 }
 
 .form-container {
@@ -85,4 +94,4 @@
 }
 .form-submit {
     margin-top: 3em;
-} 
+}
