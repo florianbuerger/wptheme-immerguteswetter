@@ -10,7 +10,7 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  graphy-child
-*/
+ */
 
 body {
     padding: 0 1em;
@@ -94,4 +94,72 @@ body {
 }
 .form-submit {
     margin-top: 3em;
+}
+
+
+.entry-content p {
+	text-align: justify;
+}
+
+
+
+.grid-latest-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+	.grid-latest-posts {
+       flex-direction: column;
+   }
+}
+
+.grid-single:first-child {
+    margin-right: 0.5em;
+}
+
+.grid-single {
+	width: 50%;
+	border: solid #999 1px;
+	padding: 0 1em 1em 1em;
+
+}
+
+@media screen and (max-width: 600px) {
+	.grid-single {
+       width: 90%;
+       margin: auto;
+   }
+}
+
+.display-posts-title {
+	margin: 0.4em 0;
+}
+
+.listing-item .title {
+	display: block;
+	font-size: 1.25em;
+	margin: 0.5em 0;
+
+}
+
+.listing-item .date {
+	color: #999;
+}
+
+.listing-item .image {
+}
+
+.size-grid-post-image {
+	height: 200px;
+	width: 300px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.size-grid-post-image {
+       height: auto;
+       width: 100%;
+   }
 }
